@@ -43,6 +43,7 @@ export default function ContactCTA() {
           preferred_contact: form.amount,
           message: form.message,
           subject: "New enquiry from Picksur Homes website",
+          replyto: "cporutiu@picksur.com",
         }),
       });
       const data = await res.json();
@@ -100,9 +101,7 @@ export default function ContactCTA() {
                     We received your request.
                   </div>
                   <p className="text-sm text-zinc-400 mt-2 leading-relaxed max-w-[48ch]">
-                    A member of our investor relations team will follow up within
-                    one business day. Accreditation verification may be required
-                    before receiving deal materials.
+                    A member of our team will follow up within one business day.
                   </p>
                 </div>
               </div>
