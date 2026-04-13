@@ -25,9 +25,6 @@ export default function Footer() {
             <p className="text-[13px] text-zinc-600 leading-relaxed">
               Mortgage notes buying, selling and brokering for private investors. First-lien positions, active management, monthly distributions.
             </p>
-            <div className="text-xs text-zinc-700">
-              Chicago, IL · Est. 2018
-            </div>
           </div>
 
           {/* Nav columns */}
