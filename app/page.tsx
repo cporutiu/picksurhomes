@@ -6,7 +6,7 @@ import WhyInvest from "@/components/WhyInvest";
 import HowItWorks from "@/components/HowItWorks";
 // import Portfolio from "@/components/Portfolio";
 import Testimonials from "@/components/Testimonials";
-import ContactCTA from "@/components/ContactCTA";
+import ContactCTA from "@/components/ContactCTALazy";
 import Footer from "@/components/Footer";
 
 const jsonLd = {

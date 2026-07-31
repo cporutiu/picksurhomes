@@ -1,32 +1,4 @@
-import Image from "next/image";
 import FadeUp from "./FadeUp";
-
-const testimonials = [
-  {
-    quote:
-      "We moved $400,000 out of a low-yield bond allocation into Picksur Homes's note fund in early 2022. The 11.8% preferred return has outperformed every fixed-income instrument we've held in the past six years. The monthly distribution cadence is exactly what our income portfolio needed.",
-    name: "Marcus Thornfield",
-    role: "CFP · Denver, CO",
-    avatar: "marcus",
-    featured: true,
-  },
-  {
-    quote:
-      "What drew me in was the collateral structure. I've been burned by unsecured private lending before. With Picksur Homes, my capital sits behind a first mortgage on a real property — that changes the risk conversation entirely.",
-    name: "Renata Koval",
-    role: "Houston, TX · Self-Directed IRA Investor",
-    avatar: "renata",
-    featured: false,
-  },
-  {
-    quote:
-      "I've referred three wealth management clients to Picksur Homes. The transparency on deal-level reporting is genuinely institutional. They send a full note tape and BPO before you commit a dollar.",
-    name: "Daniel Sørensen",
-    role: "Wealth Manager · Nashville, TN",
-    avatar: "daniel",
-    featured: false,
-  },
-];
 
 export default function Testimonials() {
   return (
@@ -57,8 +29,36 @@ export default function Testimonials() {
         </FadeUp>
 
         {/* Testimonial cards — hidden until populated */}
-        {/* Uncomment the block below to restore the cards when ready */}
-        {/*
+        {/* Uncomment the block below to restore the cards when ready.
+        Needs: import Image from "next/image"; and the testimonials data array.
+
+        const testimonials = [
+          {
+            quote:
+              "We moved $400,000 out of a low-yield bond allocation into Picksur Homes's note fund in early 2022. The 11.8% preferred return has outperformed every fixed-income instrument we've held in the past six years. The monthly distribution cadence is exactly what our income portfolio needed.",
+            name: "Marcus Thornfield",
+            role: "CFP · Denver, CO",
+            avatar: "marcus",
+            featured: true,
+          },
+          {
+            quote:
+              "What drew me in was the collateral structure. I've been burned by unsecured private lending before. With Picksur Homes, my capital sits behind a first mortgage on a real property — that changes the risk conversation entirely.",
+            name: "Renata Koval",
+            role: "Houston, TX · Self-Directed IRA Investor",
+            avatar: "renata",
+            featured: false,
+          },
+          {
+            quote:
+              "I've referred three wealth management clients to Picksur Homes. The transparency on deal-level reporting is genuinely institutional. They send a full note tape and BPO before you commit a dollar.",
+            name: "Daniel Sørensen",
+            role: "Wealth Manager · Nashville, TN",
+            avatar: "daniel",
+            featured: false,
+          },
+        ];
+
         <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4">
           <FadeUp>
             <div className="h-full border border-zinc-800/70 rounded-2xl p-8 lg:p-10 bg-zinc-900/30 flex flex-col justify-between gap-10">
