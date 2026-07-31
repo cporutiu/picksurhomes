@@ -34,6 +34,12 @@ export const metadata: Metadata = {
     siteName: "Picksur Homes",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Picksur Homes | Private Mortgage Note Investing",
+    description:
+      "Institutional-grade access to first-lien mortgage notes across 14 states. Consistent monthly distributions secured by real property.",
+  },
 };
 
 export default function RootLayout({
