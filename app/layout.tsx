@@ -26,6 +26,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  openGraph: {
+    title: "Picksur Homes | Private Mortgage Note Investing",
+    description:
+      "Institutional-grade access to first-lien mortgage notes across 14 states. Consistent monthly distributions secured by real property.",
+    url: "https://quicknotedeals.com",
+    siteName: "Picksur Homes",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
