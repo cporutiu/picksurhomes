@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
+    formats: ["image/avif", "image/webp"],
     remotePatterns: [
       {
         protocol: "https",
@@ -12,19 +13,6 @@ const nextConfig: NextConfig = {
         hostname: "images.pexels.com",
       },
     ],
-  },
-  async headers() {
-    return [
-      {
-        source: "/hero-home.jpg",
-        headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=31536000, immutable",
-          },
-        ],
-      },
-    ];
   },
 };
 
