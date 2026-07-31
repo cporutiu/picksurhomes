@@ -8,17 +8,15 @@ import { ArrowRight, MapPin } from "@phosphor-icons/react";
 const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 const containerVariants = {
-  hidden: { opacity: 0 },
+  hidden: {},
   visible: {
-    opacity: 1,
     transition: { staggerChildren: 0.09, delayChildren: 0.15 },
   },
 };
 
 const itemVariants = {
-  hidden: { opacity: 0, y: 22 },
+  hidden: { y: 22 },
   visible: {
-    opacity: 1,
     y: 0,
     transition: { duration: 0.7, ease: EASE },
   },
@@ -129,8 +127,8 @@ export default function Hero() {
 
           {/* Right column — visual */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.97, y: 16 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
+            initial={{ scale: 0.97, y: 16 }}
+            animate={{ scale: 1, y: 0 }}
             transition={{ duration: 1.1, ease: EASE, delay: 0.2 }}
             className="relative hidden lg:block"
           >
@@ -139,8 +137,9 @@ export default function Hero() {
                 src="/hero-home.jpg"
                 alt="Real property collateral securing mortgage notes"
                 fill
+                sizes="(min-width: 1024px) 40vw, 0px"
                 className="object-cover"
-                priority
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/30 to-transparent" />
               <div className="absolute inset-0 bg-gradient-to-r from-zinc-950/20 to-transparent" />
