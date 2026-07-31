@@ -30,7 +30,7 @@ export default function WhatIsSection() {
             <FadeUp delay={0.16}>
               <p className="text-[15px] text-zinc-400 leading-[1.8] max-w-[60ch]">
                 A mortgage note is the legal instrument a borrower signs when
-                taking out a home loan — it's the promise to repay. When banks
+                taking out a home loan — it&apos;s the promise to repay. When banks
                 and credit unions need to clean up their balance sheets, they
                 sell these notes, often at a discount to face value.
               </p>
@@ -38,7 +38,7 @@ export default function WhatIsSection() {
 
             <FadeUp delay={0.22}>
               <p className="text-[15px] text-zinc-400 leading-[1.8] max-w-[60ch]">
-                That's where Picksur Homes enters. We acquire these instruments,
+                That&apos;s where Picksur Homes enters. We acquire these instruments,
                 typically secured by a first-lien position on the underlying
                 real property. The discount creates our yield. The real property
                 is our floor.
