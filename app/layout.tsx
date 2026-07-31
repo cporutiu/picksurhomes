@@ -19,9 +19,13 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://quicknotedeals.com"),
   title: "Picksur Homes | Private Mortgage Note Investing",
   description:
     "Institutional-grade access to first-lien mortgage notes across 14 states. Consistent monthly distributions secured by real property.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
