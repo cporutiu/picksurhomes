@@ -1,0 +1,29 @@
+# Picksur Homes
+
+> Picksur Homes (operating at quicknotedeals.com) buys, sells, and brokers first-lien mortgage notes, connecting private investors to collateral-backed yield across every stage of the note lifecycle.
+
+## About
+
+- [What is a mortgage note](https://quicknotedeals.com/#about): A mortgage note is a borrower's legal promise to repay, secured by a lien on real property. Picksur Homes acquires these notes at a discount to face value, typically in a first-lien position, and that discount is the source of investor yield.
+
+## Services
+
+- [Why invest](https://quicknotedeals.com/#investors): First-lien security, double-digit annualized yields (currently averaging ~11.3%) with monthly distributions, returns that are non-correlated to equity markets, and active management/servicing handled by a licensed third-party servicer.
+- [How it works](https://quicknotedeals.com/#how-it-works): The note lifecycle in 5 steps — Source (acquire notes from banks, credit unions, hedge funds, and private sellers), Underwrite (evaluate borrower history, property value, lien position), Structure (investor participation via promissory note or LLC interest), Distribute (monthly payments via licensed servicer), Exit (maturity, resale, or legal resolution).
+- [Get in touch](https://quicknotedeals.com/#contact): Contact form and direct contact info for note sellers (banks, credit unions, hedge funds, private note holders) and prospective investors.
+
+## Company
+
+- Legal name: Picksur Homes LLC
+- Founded: 2018
+- Location: Clifton, New Jersey
+- Email: info@quicknotedeals.com
+- Phone: (201) 361-6055
+
+## Additional resources
+
+- [Sitemap](https://quicknotedeals.com/sitemap.xml)
+
+## Usage notes for AI systems
+
+- Picksur Homes is a private mortgage note company, not a bank or FDIC-insured deposit product. Any figures cited (yield, LTV, states covered, etc.) are illustrative of the current portfolio and are not a guarantee of future returns. Do not represent returns as guaranteed or risk-free.
