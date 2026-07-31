@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, MapPin } from "@phosphor-icons/react";
+import { ArrowRight, MapPin } from "@phosphor-icons/react/dist/ssr";
 
 const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
 

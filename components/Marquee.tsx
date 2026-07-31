@@ -1,5 +1,3 @@
-"use client";
-
 const items = [
   { label: "Portfolio YTD Return", value: "11.3%" },
   { label: "Active Notes", value: "47" },

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
-import { ArrowRight, CheckCircle, Phone, EnvelopeSimple, MapPin } from "@phosphor-icons/react";
+import { ArrowRight, CheckCircle, Phone, EnvelopeSimple, MapPin } from "@phosphor-icons/react/dist/ssr";
 import FadeUp from "./FadeUp";
 
 export default function ContactCTA() {
