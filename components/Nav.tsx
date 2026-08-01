@@ -30,9 +30,10 @@ export default function Nav() {
 
         <nav className="hidden md:flex items-center gap-7">
           {[
-            { label: "How It Works", href: "#how-it-works" },
-            { label: "Investors", href: "#investors" },
-            { label: "About", href: "#about" },
+            { label: "How It Works", href: "/#how-it-works" },
+            { label: "Investors", href: "/#investors" },
+            { label: "About", href: "/#about" },
+            { label: "Blog", href: "/blog" },
           ].map(({ label, href }) => (
             <Link
               key={label}
@@ -45,7 +46,7 @@ export default function Nav() {
         </nav>
 
         <Link
-          href="#contact"
+          href="/#contact"
           className="hidden md:inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold bg-amber-400 text-zinc-950 rounded-md hover:bg-amber-300 transition-all duration-200 active:scale-[0.97]"
         >
           Get in Touch
