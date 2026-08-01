@@ -1,9 +1,17 @@
 import { config, fields, collection } from "@keystatic/core";
 
 export default config({
-  storage: {
-    kind: "local",
-  },
+  // Local dev keeps using plain files on disk (fast, no GitHub API calls
+  // needed while writing). The deployed site uses GitHub storage, which
+  // gives /keystatic a real GitHub-login-gated admin UI — only accounts
+  // with write access to this repo can read/write content there.
+  storage:
+    process.env.NODE_ENV === "development"
+      ? { kind: "local" }
+      : {
+          kind: "github",
+          repo: { owner: "cporutiu", name: "picksurhomes" },
+        },
   collections: {
     posts: collection({
       label: "Blog Posts",
