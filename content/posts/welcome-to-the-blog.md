@@ -7,7 +7,7 @@ description: >-
 ---
 This is our first post. More to come soon on mortgage note investing, private lending, and how our team sources, underwrites, and services notes for our investors.
 
-## What to expect
+## What to expect from it
 
 - Plain-English explainers on mortgage note investing
 - Deal walkthroughs and market updates
